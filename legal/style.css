@@ -88,15 +88,20 @@ section {
 }
 
 .privacidad a {
-    color: #f29191;
+    color:#f29191 ;
     text-decoration: none;
 }
 
 .privacidad a:hover {
     text-decoration: underline;
 }
-
-
+.mascota-img {
+    display: block;
+    margin: 20px auto;
+    max-width: 300px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px #f29191; 
+}
 
 
  /*PIE DE PAGINA */
