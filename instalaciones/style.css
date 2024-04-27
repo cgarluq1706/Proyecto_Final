@@ -1,0 +1,114 @@
+body {
+    background-color: pink;
+    margin: 0;
+    padding: 0;
+    font-family: 'Pacifico', cursive;
+    
+}
+.menu {
+    list-style: none;
+    padding: 20px 0px;
+    margin: 0;
+    position: relative; 
+    text-align: center;   
+}
+
+.menu li {
+    display: inline-block; 
+    margin-right: 40px; 
+}
+
+.menu li a {
+    text-decoration: none; 
+    color: #F29191;
+}
+
+.menu li a:not(.logo) {
+    padding: 5px 10px; 
+    border: 1px solid #ffffff; 
+    border-radius: 5px; 
+    background-color: white;
+}
+
+.menu li a:not(.logo):hover {
+    background-color: #F29191;
+    color: white;
+    border-color: #F29191;
+} /*estilos a los elementos <a> dentro de <li> en un menú que NO tengan la clase .logo cuando se realiza un hover sobre ellos.*/
+
+.logo img {
+    border: none; 
+    vertical-align: middle; 
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+}
+
+
+section {
+    margin: 0;
+    text-align: center; 
+    padding: 0;
+}
+
+/*CONTENIDO */
+
+
+
+ /*PIE DE PAGINA */
+ footer {
+    background-color: #F29191;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    color: #fff; 
+}
+
+.logof img {
+    width: 280px;
+    margin-right: 20px; 
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.603);
+    margin-left: 30px;
+}
+
+.columna {
+    flex: 1; 
+    padding: 0 20px; 
+    text-align: center;
+   
+}
+.horario{
+    border: 2px rgba(255, 255, 255, 0.425) solid;
+}
+
+.columna h3 {
+    margin-bottom: 10px; 
+}
+
+.columna ul {
+    list-style: none;
+    padding: 0;
+}
+
+.columna ul li {
+    margin-bottom: 10px;
+}
+
+.columna ul li a {
+    color: #fff; 
+    text-decoration: none;
+}
+
+.redes-sociales img {
+    margin-top: 10px;
+}
+.enlaces-rapidos ul li a:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.24); 
+    
+}
+
+
+
+
