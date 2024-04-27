@@ -34,7 +34,7 @@ body {
     background-color: #F29191;
     color: white;
     border-color: #F29191;
-} /*estilos a los elementos <a> dentro de <li> en un menú que NO tengan la clase .logo cuando se realiza un hover sobre ellos.*/
+} 
 
 .logo img {
     border: none; 
@@ -60,35 +60,35 @@ section {
     margin-bottom: 30px;
 }
 
-/* Estilos para los párrafos separados por líneas */
+
 .tarifa-section {
     margin-bottom: 40px;
     border-bottom: 1px solid #c70000;
     padding-bottom: 20px;
-    display: flex; /* Para alinear elementos en línea */
-    justify-content: space-between; /* Para distribuir elementos de forma uniforme */
-    align-items: center; /* Para alinear verticalmente los elementos */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
 }
 
-/* Estilos para los títulos */
+
 .tarifa-title {
     font-size: 24px;
     color: #333;
 }
 
-/* Estilos para los textos */
+
 .tarifa-text {
     color: #666;
 }
 
-/* Estilos para las imágenes */
+
 .tarifa-img {
     width: 200px;
     height: 200px;
     margin-top: 20px;
 }
 .tarifa-content {
-    flex: 1; /* Para que el contenido de texto ocupe todo el espacio disponible */
+    flex: 1; 
 }
 
 
