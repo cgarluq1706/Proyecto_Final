@@ -53,6 +53,50 @@ section {
 
 /*CONTENIDO */
 
+.privacidad {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.privacidad div {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.privacidad h1 {
+    color: #F29191;
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.privacidad h2 {
+    color: #F29191;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.privacidad p {
+    color: #000000;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    background-color: #f2919115;
+    
+}
+
+.privacidad a {
+    color: #f29191;
+    text-decoration: none;
+}
+
+.privacidad a:hover {
+    text-decoration: underline;
+}
+
+
 
 
  /*PIE DE PAGINA */
