@@ -8,13 +8,12 @@
     <title>VALENCAN</title>
 </head>
 <body>
-    
+     
     <header>
         <!-- Menu de navegacion -->
         <ul class="menu">
             <li><a class="logo" href="index.html"><img src="pagina principal/logo.png" alt="" style="width: 50px; height: 50px; margin: 10px 10px ;"></a></li>
-            <li><a href="servicios\servicios.html">Servicios</a></li>
-            <li><a href="instalaciones\instalaciones.html">Instalaciones</a></li>
+            <li><a href="centro\servicios.html">Centro</a></li>
             <li><a href="tarifas\tarifas.html">Tarifas</a></li>
             <li><a href="contacto\contacto.html">Contacto</a></li>
             <li><a href="colaboracion\colaboracion.html">Colaboración</a></li>
@@ -28,6 +27,7 @@
             <p>Donde las mascotas son familia</p>
     </section>
     
+    
     <section class="redes">
         <a href="https://www.facebook.com/?locale=es_ES" target="_blank">
             <img src="pagina principal/facebook.png" alt="Facebook" >
@@ -38,63 +38,194 @@
     </section>
 
     <!-- Bienvenida -->
-    <section class="bienvenida">
-        <div class="bien" style="font-size: x-large;"><h1>BIENVENIDOS A VALENCAN</h1> </div>
-        <div class="bien"> <H3>
-            En Valencan, nos dedicamos a brindar un cuidado amoroso y profesional a tus amigos peludos mientras estás fuera. Con instalaciones seguras, personal amable y actividades divertidas, nos esforzamos por hacer que cada visita sea una experiencia feliz y cómoda para tus mascotas.
-            Explora nuestros servicios, conócenos más y descubre cómo podemos cuidar de tu compañero de cuatro patas como si fuera nuestro propio miembro de la familia.
-            ¡Gracias por confiar en nosotros con el cuidado de tu mascota!</H3>
+    <div class="bienvenida">
+        <section id="inicio" class="presentacion">
+            <div class="contenido">
+                <h1>BIENVENIDOS A VALENCAN</h1>
+                <p>En Valencan, nos dedicamos a brindar un cuidado amoroso y profesional a tus amigos peludos mientras estás fuera. Con instalaciones seguras, personal amable y actividades divertidas, nos esforzamos por hacer que cada visita sea una experiencia feliz y cómoda para tus mascotas.
+                    Explora nuestros servicios, conócenos más y descubre cómo podemos cuidar de tu compañero de cuatro patas como si fuera nuestro propio miembro de la familia.
+                    ¡Gracias por confiar en nosotros con el cuidado de tu mascota!</p>
+                    <p>VALENCAN - Donde el amor por las mascotas es nuestra pasión</p>
+                
             </div>
-            <div class="bien" ><h3>VALENCAN - Donde el amor por las mascotas es nuestra pasión</h3> </div>
-    </section>
+        </section>
 
     <!-- Servicios -->
     <section class="servicios">
         <h3>NUESTROS SERVICIOS DE MASCOTAS</h3>
         <div class="imagenes">
-            <a href="#enlace" target="_blank" class="imag">
+            <a href="centro\servicios.html"  class="imag">
                 <img src="pagina principal/perros_paseo.jpg" alt="perro" class="image">
                 <p>Cuidado de Mascotas</p>
             </a>
-            <a href="#enlace" target="_blank" class="imag">
-                <img src="pagina principal/lavado.jpg" alt="perro" class="image">
-                <p>Peluqueria Canina</p>
+            <a href="centro\servicios.html"  class="imag">
+                <img src="pagina principal/paseo.jpeg" alt="perro" class="image">
+                <p>Paseos</p>
             </a>
-            <a href="#enlace" target="_blank" class="imag">
+            <a href="centro\servicios.html"  class="imag">
                 <img src="pagina principal/piscina.jpg" alt="perro" class="image">
                 <p>Alojamiento</p>
             </a>
         </div>
     </section>
 
+
     <!-- Comentarios -->
-    <h2 style="text-align: center; ;">NUESTROS CLIENTES OPINAN</h2>
-    <section class="comentarios">
-        
-        <div class="bloque-izq">
-            <img src="pagina principal/señora paseando.jpg" alt="Mascota">
-        </div>
-        <div class="bloque-derecha">
-            <div class="comment">
-                <div class="user-info">
-                    <img src="pagina principal/user mascota.jpg" alt="Avatar del usuario">
-                    <p>Nombre del Usuario</p>
+    <div class="comment">
+        <h2 style="text-align: center;padding-top: 10px; color: rgb(255, 255, 255);">NUESTROS CLIENTES OPINAN</h2>
+        <section class="comentarios">
+            <div class="carousel">
+                <!-- Primer comentario -->
+                <div class="comment-slide">
+                    <div class="comment2">
+                        <div class="user-info">
+                            <div class="avatar">
+                                <img src="pagina principal/img/avatar (2).jpeg" alt="Avatar del usuario">
+                            </div>
+                            <p>Maria Victoria</p>
+                        </div>
+                        <div class="comment-content">
+                            <p class="comment-text">¡La guardería para mi cachorro ha sido una experiencia maravillosa! Le encanta jugar con otros perros y siempre llega a casa agotado pero feliz. El equipo de cuidadores es increíblemente cariñoso y profesional, ¡no dudaría en recomendarlos!</p>
+                            <div class="valoracion">
+                                <span class="star"></span>
+                                <span class="star"></span>
+                                <span class="star"></span>
+                                <span class="star"></span>
+                                <span class="star"></span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="comment-content">
-                    <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula quam sit amet justo rutrum, eget gravida quam vehicula.</p>
-                    <div class="valoracion">
-                        <span class="star"></span>
-                        <span class="star"></span>
-                        <span class="star"></span>
-                        <span class="star"></span>
-                        <span class="star"></span>
+                <!-- Segundo comentario -->
+                <div class="comment-slide">
+                    <div class="comment2">
+                        <div class="user-info">
+                            <div class="avatar">
+                                <img src="pagina principal/img/avatar (3).jpg" alt="Avatar del usuario">
+                            </div>
+                            <p>Lola</p>
+                        </div>
+                        <div class="comment-content">
+                            <p class="comment-text"> Desde que comenzamos a llevar a nuestro perro a esta guardería, ha sido mucho más sociable y enérgico. El personal realmente se preocupa por cada perro y se nota en la calidad del cuidado que brindan. ¡Definitivamente vale la pena!</p>
+                            <div class="valoracion">
+                                <span class="star"></span>
+                                <span class="star"></span>
+                                <span class="star"></span>
+                                <span class="star"></span>
+                                <span class="star"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment-slide">
+                    <div class="comment2">
+                        <div class="user-info">
+                            <div class="avatar">
+                                <img src="pagina principal/img/avatar(5).jpg" alt="Avatar del usuario">
+                            </div>
+                            <p>Manel Jean</p>
+                        </div>
+                        <div class="comment-content">
+                            <p class="comment-text">La primera vez que Lolito se queda en una residencia y la experiencia ha sido buena. Se quedó un poco extrañado el primer momento, como es normal pero enseguida se adaptó al lugar. Lo pude comprobar por los vídeos que me enviaron durante su estancia Volverá de nuevo... yo quedé muy contento</p>
+                            <div class="valoracion">
+                                <span class="star"></span>
+                                <span class="star"></span>
+                                <span class="star"></span>
+                                <span class="star"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment-slide">
+                    <div class="comment2">
+                        <div class="user-info">
+                            <div class="avatar">
+                                <img src="pagina principal/img/avatar (2).jpg" alt="Avatar del usuario">
+                            </div>
+                            <p> Anastasio </p>
+                        </div>
+                        <div class="comment-content">
+                            <p class="comment-text">La limpieza y comodidad de las instalaciones son impresionantes. Mi gato es un poco tímido, pero siempre parece estar relajado y feliz cuando lo recojo. ¡No podría pedir un mejor lugar para dejar a mi peludo amigo cuando estoy fuera de la ciudad!</p>
+                            <div class="valoracion">
+                                <span class="star"></span>
+                                <span class="star"></span>
+                                <span class="star"></span>
+                                <span class="star"></span>
+                                <span class="star"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment-slide">
+                    <div class="comment2">
+                        <div class="user-info">
+                            <div class="avatar">
+                                <img src="pagina principal/img/avatar (1).jpeg" alt="Avatar del usuario">
+                            </div>
+                            <p> Miriam Rodriguez </p>
+                        </div>
+                        <div class="comment-content">
+                            <p class="comment-text">Confío plenamente en esta guardería para cuidar a mis dos perros mientras estamos en el trabajo. Es genial recibir actualizaciones durante el día y saber que estás en buenas manos. ¡Gracias por proporcionar un ambiente seguro y divertido para ellos!</p>
+                            <div class="valoracion">
+                                <span class="star"></span>
+                                <span class="star"></span>
+                                <span class="star"></span>
+                                <span class="star"></span>
+                                <span class="star"></span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="arrows">
+                <div class="arrow left-arrow">&lt;</div>
+                <div class="arrow right-arrow">&gt;</div>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+    
+ <!-- centro -->
+ <div class="block-container">
+    <div class="block">
+        <div class="card">
+            <div class="icon">
+                <img src="pagina principal/inconos/casa.png" alt="Icono">
+            </div>
+            <h3 class="block-title">Instalaciones</h3>
+            <p class="block-text">Residencia canina con amplias instalaciones y zonas de juego para el disfrute y descanso de los animales.</p>
         </div>
-    </section>
-    
-    
+    </div>
+    <div class="block">
+        <div class="card">
+            <div class="icon">
+                <img src="pagina principal/inconos/vigilancia.png" alt="Icono">
+            </div>
+            <h3 class="block-title">Vigilancia 24h</h3>
+            <p class="block-text">Nuestro residencia está vigilado las 24 horas para que tu mascota se encuentre segura y bien cuidada.</p>
+        </div>
+    </div>
+    <div class="block">
+        <div class="card">
+            <div class="icon">
+                <img src="pagina principal/inconos/clima.png" alt="Icono">
+            </div>
+            <h3 class="block-title">Habitaciones climatizadas</h3>
+            <p class="block-text">Todas las instalaciones cuentan con las condiciones óptimas tanto para verano como invierno. Calefacción y aire acondicionado.</p>
+        </div>
+    </div>
+    <div class="block">
+        <div class="card">
+            <div class="icon">
+                <img src="pagina principal/inconos/veterinario.png" alt="Icono">
+            </div>
+            <h3 class="block-title">Servicio veterinario</h3>
+            <p class="block-text">Contamos con un auxiliar veterinario ante cualquier incidente que nos pueda ocurrir en el centro.</p>
+        </div>
+    </div>
+</div>
+
+  
     <section class="lineab">
     <div><img src="pagina principal/perros.jpg" alt=""></div>
     </section>
@@ -107,8 +238,7 @@
         <div class="enlaces-rapidos columna">
             <ul>
             <h2><a href="index.html" style="color: #fff; text-decoration: none;">MENU</a></li></h2>
-            <li><a href="servicios\servicios.html">Servicios</a></li>
-            <li><a href="instalaciones\instalaciones.html">Instalaciones</a></li>
+            <li><a href="centro\servicios.html">Centro</a></li>
             <li><a href="tarifas\tarifas.html">Tarifas</a></li>
             <li><a href="contacto\contacto.html">Contacto</a></li>
             <li><a href="colaboracion\colaboracion.html">Colaboración</a></li>
@@ -119,7 +249,7 @@
         <div class="info columna">
             <h2><a href="contacto\contacto.html" style="color: #fff; text-decoration: none;">CONTACTO</a></li></h2>
             <p><img src="pagina principal/casa.png" alt="direccion" style="width: 20px; height: 20px;"> Dirección: Avenida de mi casa </p>
-            <p><img src="pagina principal/tlf.png" alt="telefono" style="width: 20px; height: 20px;"> Teléfono: 612345678 </p>
+            <p><img src="pagina principal/tlf3.png" alt="telefono" style="width: 20px; height: 20px;"> Teléfono: 612345678 </p>
             <p><img src="pagina principal/email.png" alt="correo" style="width: 20px; height: 20px;"> Correo electrónico: valencan@gmail.com </p>
             <p class="horario"><img src="pagina principal/reloj.png" alt="horario" style="width: 20px; height: 20px;"> Horario: 09:00am - 21:00pm</p>
 
@@ -133,8 +263,8 @@
                 <img src="pagina principal/instagram.png" alt="Instagram">
             </a>
             <br>
-            <a href="#colaboracion" target="_blank">
-                <img src="pagina principal/img perro.jpg" alt="Colaboracion"  style="width: 100px; height: 100px;" >
+            <a href="colaboracion/colaboracion.html" target="_blank">
+                <img src="pagina principal/logof.jpg" alt="Colaboracion"  style="width: 100px; height: 100px;" >
             </a>
             
         </div>
