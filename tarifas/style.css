@@ -34,7 +34,7 @@ body {
     background-color: #F29191;
     color: white;
     border-color: #F29191;
-} 
+} /*estilos a los elementos <a> dentro de <li> en un menú que NO tengan la clase .logo cuando se realiza un hover sobre ellos.*/
 
 .logo img {
     border: none; 
@@ -70,6 +70,14 @@ section {
     align-items: center; 
 }
 
+.img-titulo{
+    width: auto;
+    height: 250px;
+}
+.titulo-img{
+    width: 200px;
+    height: 200px;
+}
 
 .tarifa-title {
     font-size: 24px;

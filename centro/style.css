@@ -1,0 +1,438 @@
+body {
+    background-color: pink;
+    margin: 0;
+    padding: 0;
+    font-family: 'Pacifico', cursive;
+    
+}
+.menu {
+    list-style: none;
+    padding: 20px 0px;
+    margin: 0;
+    position: relative; 
+    text-align: center;   
+}
+
+.menu li {
+    display: inline-block; 
+    margin-right: 40px; 
+}
+
+.menu li a {
+    text-decoration: none; 
+    color: #F29191;
+}
+
+.menu li a:not(.logo) {
+    padding: 5px 10px; 
+    border: 1px solid #ffffff; 
+    border-radius: 5px; 
+    background-color: white;
+}
+
+.menu li a:not(.logo):hover {
+    background-color: #F29191;
+    color: white;
+    border-color: #F29191;
+} /*estilos a los elementos <a> dentro de <li> en un menú que NO tengan la clase .logo cuando se realiza un hover sobre ellos.*/
+
+.logo img {
+    border: none; 
+    vertical-align: middle; 
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+}
+
+
+section {
+    margin: 0;
+    text-align: center; 
+    padding: 0;
+}
+
+/*CONTENIDO */
+
+
+.instalaciones{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.presentacion {
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.contenido {
+    background-color: #F29191;
+    padding: 20px;
+    border-radius: 10px;
+}
+h2{
+    color: white;
+}
+
+.contenido h1 {
+    font-size: 3em;
+}
+
+.contenido p {
+    font-size: 1.5em;
+}
+
+
+.plantilla-seccion {
+
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contenido {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.trabajadores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.trabajador {
+    flex: 1 1 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.trabajador img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.trabajador h3 {
+    margin-top: 20px;
+}
+
+.trabajador p {
+    color: #555;
+}
+.trabajador.grande {
+    flex: 2 1 600px;
+}
+
+
+.seccion-boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.imagenes {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagenes img {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.imagenes img:first-child {
+    height: 200px;
+}
+
+.imagenes-pequenas {
+    display: flex;
+}
+
+.imagenes-pequenas img {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.texto {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.texto h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.texto p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+.linea-rosa {
+    height: 2px;
+    background-color: #F29191; 
+    margin: 20px 0; 
+}
+
+
+.seccion-zonas-comunes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.zonas-comunes h2 {
+    color: #ff6f61;
+    font-size: 30px;
+   
+}
+
+.zona-interior, .zona-exterior {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.zona-interior img, .zona-exterior img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+.boton {
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    padding: 15px 30px; 
+    border-radius: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 18px; 
+    margin: 50px;
+}
+
+.boton:hover {
+    background-color: #e24e43;
+}
+
+
+.codigo {
+    display: none;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;  
+    margin-left: auto; 
+    margin-right: auto; 
+    box-shadow: 0 0 10px #F29191;
+}
+
+
+.codigo h2 {
+    color: black;
+}
+
+/*PASEOS*/
+
+.seccion-paseos {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+
+.seccion-paseos h2 {
+    color: #ff6f61;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+.texto-paseos {
+    margin-bottom: 30px;
+}
+
+.texto-paseos p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.imagenes-paseos {
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-paseo {
+    width: 25%;
+    height: auto;
+    max-width: 200px; 
+    margin: 0 10px; 
+}
+
+.imagenes-paseos img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Galeria*/
+.galeria {
+    text-align: center;
+}
+
+.galeria h2 {
+    color: #333;
+}
+
+.galeria p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.imagenes-gal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagen-galeria {
+    width: calc(20% - 10px); /* Calcula el ancho para que haya 5 imágenes por fila */
+    height: auto;
+    margin: 5px;
+}
+
+.imagen-galeria img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .imagen-galeria {
+        width: calc(33.33% - 10px); /* Para pantallas más pequeñas, muestra 3 imágenes por fila */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .imagen-galeria {
+        width: calc(50% - 10px); /* Para pantallas aún más pequeñas, muestra 2 imágenes por fila */
+    }
+}
+
+.imagen-galeria:hover {
+    transform: scale(1.1);
+}
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+}
+
+.modal-imagen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.cerrar-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+ /*PIE DE PAGINA */
+ footer {
+    background-color: #F29191;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    color: #fff; 
+}
+
+.logof img {
+    width: 280px;
+    margin-right: 20px; 
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.603);
+    margin-left: 30px;
+}
+
+.columna {
+    flex: 1; 
+    padding: 0 20px; 
+    text-align: center;
+   
+}
+.horario{
+    border: 2px rgba(255, 255, 255, 0.425) solid;
+}
+
+.columna h3 {
+    margin-bottom: 10px; 
+}
+
+.columna ul {
+    list-style: none;
+    padding: 0;
+}
+
+.columna ul li {
+    margin-bottom: 10px;
+}
+
+.columna ul li a {
+    color: #fff; 
+    text-decoration: none;
+}
+
+.redes-sociales img {
+    margin-top: 10px;
+}
+.enlaces-rapidos ul li a:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.24); 
+    
+}
+
+
+
+
