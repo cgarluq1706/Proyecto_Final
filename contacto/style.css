@@ -57,26 +57,42 @@ section {
     padding: 30px;
     border-radius: 10px;
     margin-bottom: 30px;
+<<<<<<< HEAD
 }
 
+=======
+   
+}
+>>>>>>> ba955c14b77c31a889fe6039d42a4ecbeae2b23e
 .container {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
+<<<<<<< HEAD
 }
 
+=======
+    
+}
+>>>>>>> ba955c14b77c31a889fe6039d42a4ecbeae2b23e
 .texto {
     flex: 1;
     padding: 20px;
     text-align: center;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> ba955c14b77c31a889fe6039d42a4ecbeae2b23e
 .formulario {
     flex: 1;
     padding: 20px;
     border-left: 2px solid #ccc;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> ba955c14b77c31a889fe6039d42a4ecbeae2b23e
 h1 {
     margin-top: 20px;
 }
@@ -89,6 +105,10 @@ form {
     border-radius: 5px;
     background-color: #f291918a;
     box-shadow: 0px 0px 10px #f29191;
+<<<<<<< HEAD
+=======
+
+>>>>>>> ba955c14b77c31a889fe6039d42a4ecbeae2b23e
 }
 
 .form-group {
@@ -122,8 +142,12 @@ textarea {
     resize: vertical;
 }
 
+<<<<<<< HEAD
 button[type="submit"],
 button[type="reset"] {
+=======
+button[type="submit"] , [type="reset"] {
+>>>>>>> ba955c14b77c31a889fe6039d42a4ecbeae2b23e
     background-color: #F29191;
     color: white;
     padding: 12px 20px;
@@ -137,20 +161,33 @@ button[type="submit"]:hover {
     background-color: #ffffff;
     color: #F29191;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> ba955c14b77c31a889fe6039d42a4ecbeae2b23e
 button[type="reset"]:hover {
     background-color: #ffffff;
     color: #F29191;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> ba955c14b77c31a889fe6039d42a4ecbeae2b23e
 .imagen{
     width: 400px;
     height: 300px;
     margin: 20px auto;
+<<<<<<< HEAD
     border-radius: 100%;
     box-shadow: 0px 0px 10px #f29191; 
 }
 
+=======
+    
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px #f29191; 
+}
+>>>>>>> ba955c14b77c31a889fe6039d42a4ecbeae2b23e
 .contacto-info{
     background-color: #F29191;
     color: white;

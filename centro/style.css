@@ -58,7 +58,11 @@ section {
     background-color: #ffffff;
     padding: 30px;
     border-radius: 10px;
+<<<<<<< HEAD
     margin-bottom: 30px; 
+=======
+    margin-bottom: 30px;
+>>>>>>> ba955c14b77c31a889fe6039d42a4ecbeae2b23e
 }
 nav ul {
     list-style-type: none;

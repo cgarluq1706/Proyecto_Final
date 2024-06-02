@@ -14,7 +14,11 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> ba955c14b77c31a889fe6039d42a4ecbeae2b23e
 
 document.addEventListener("DOMContentLoaded", function() {
     const imagenes = document.querySelectorAll(".imagen-galeria");
