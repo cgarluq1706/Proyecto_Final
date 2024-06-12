@@ -17,7 +17,7 @@ body {
     display: inline-block; 
     margin-right: 40px; 
 }
- 
+
 .menu li a {
     text-decoration: none; 
     color: #F29191;
@@ -99,6 +99,33 @@ section {
     flex: 1; 
 }
 
+.boton-colabora {
+    margin-top: 40px;
+    background-color: #f2919146;
+    margin: 10px 450px;
+    padding-bottom: 10px;
+    border-radius: 10%;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    
+}
+
+.boton:hover {
+    background-color: #e24e43;
+}
+
 
  /*PIE DE PAGINA */
  footer {
@@ -153,7 +180,72 @@ section {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.24); 
     
 }
+/* Estilos para pantallas grandes */
+@media only screen and (min-width: 1024px) {
+    .menu li {
+        margin-right: 20px; 
+    }
 
+    .tarifa-section {
+        flex-direction: row; /* Alinear horizontalmente en pantallas grandes */
+    }
+
+    .tarifa-img {
+        margin-top: 0; 
+    }
+
+    .boton-colabora {
+        margin: 40px auto; 
+    }
+}
+
+/* Estilos para pantallas medianas */
+@media only screen and (max-width: 1023px) {
+    .menu {
+        text-align: center;
+    }
+
+    .menu li {
+        display: block;
+        margin: 10px 0; 
+    }
+
+    .tarifa-section {
+        flex-direction: column; /* Alinear verticalmente en pantallas medianas */
+    }
+
+    .tarifa-img {
+        margin-top: 20px; 
+    }
+}
+
+/* Estilos para pantallas pequeñas */
+@media only screen and (max-width: 768px) {
+    .tarifas {
+        padding: 20px; 
+    }
+
+    .boton-colabora {
+        margin: 20px auto; 
+    }
+
+    footer {
+        flex-direction: column; /* Apila los elementos del pie de página en pantallas pequeñas */
+        text-align: center; 
+    }
+
+    .logof img {
+        margin: 20px auto; 
+    }
+
+    .columna {
+        padding: 10px 0; 
+    }
+
+    .redes-sociales img {
+        margin-top: 20px; 
+    }
+}
 
 
 

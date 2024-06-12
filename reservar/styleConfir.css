@@ -1,0 +1,54 @@
+
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #ffd2e8; 
+    margin: 0;
+    padding: 0; 
+    display: flex; /* Establece el modelo de caja flexible */
+    flex-direction: column; /* Dirección de apilamiento de los elementos secundarios */
+    align-items: center; 
+    justify-content: center; /* Alinea los elementos secundarios verticalmente */
+    height: 100vh; /* Establece la altura al 100% del viewport */
+}
+
+/* contenido */
+.texto {
+    background-color: white; 
+    padding: 40px; 
+    border-radius: 10px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.37); 
+}
+
+
+h1 {
+    color: #F29191; 
+    text-align: center; 
+    font-size: 36px; 
+}
+
+
+p {
+    color: #333; 
+    font-size: 24px; 
+    text-align: center; 
+    margin-bottom: 30px;
+}
+
+
+a {
+    color: #F29191; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.imagen {
+    display: block; /* Cambia el comportamiento a bloque */
+    margin: 0 auto;
+    width: 60%; 
+    max-width: 600px; 
+}

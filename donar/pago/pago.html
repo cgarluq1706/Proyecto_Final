@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="../../pagina principal/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasarela de Pago</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body> 
+    <div class="container">
+        <!-- Título del formulario -->
+        <h2>Ingrese los detalles de la tarjeta:</h2>
+        <!-- Formulario de pago -->
+        <form id="paymentForm" action="process_payment.php" method="post">
+            <!-- Campo para el nombre y apellidos -->
+            <div class="form-group">
+                <label for="fullName">Nombre y Apellidos:</label>
+                <input type="text" id="fullName" name="fullName"  required>
+            </div>
+            <!-- Campo para el número de tarjeta -->
+            <div class="form-group">
+                <label for="cardNumber">Número de Tarjeta:</label>
+                <input type="text" id="cardNumber" name="cardNumber" placeholder="1234 5678 9012 3456" required>
+            </div>
+            <!-- Campo para la fecha de expiración -->
+            <div class="form-group">
+                <label for="expDate">Fecha de Expiración:</label>
+                <input type="text" id="expDate" name="expDate" placeholder="MM/YY" required>
+            </div>
+            <!-- Campo para el CVV -->
+            <div class="form-group">
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" placeholder="123" required>
+            </div>
+            <!-- Botón para enviar el formulario -->
+            <button type="submit">Pagar</button>
+        </form>
+        <!-- Mensaje de confirmación o error -->
+        <p id="paymentMessage"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

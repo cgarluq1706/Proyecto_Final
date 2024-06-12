@@ -58,11 +58,7 @@ section {
     background-color: #ffffff;
     padding: 30px;
     border-radius: 10px;
-<<<<<<< HEAD
     margin-bottom: 30px; 
-=======
-    margin-bottom: 30px;
->>>>>>> ba955c14b77c31a889fe6039d42a4ecbeae2b23e
 }
 nav ul {
     list-style-type: none;
@@ -428,13 +424,133 @@ h2{
     color: #fff; 
     text-decoration: none;
 }
-
+ 
 .redes-sociales img {
     margin-top: 10px;
 }
 .enlaces-rapidos ul li a:hover {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.24); 
     
+}
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    /* Estilos para el menú de navegación */
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .menu li a:not(.logo) {
+        padding: 5px;
+    }
+
+    /* Estilos para la sección zonas privadas */
+    .seccion-boxes {
+        flex-direction: column;
+    }
+
+    .imagenes {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .imagenes img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .texto {
+        width: 100%;
+    }
+
+    /* Permitir que la imagen de la zona privada salte a la siguiente línea */
+    .seccion-boxes {
+        flex-wrap: wrap;
+    }
+
+    /*estilos generales*/
+    .boton {
+        margin: 10px 0;
+    }
+
+    .contenido {
+        padding: 10px;
+    }
+
+    .plantilla-seccion,
+    .seccion-zonas-comunes,
+    .codigo,
+    .seccion-paseos,
+    .galeria {
+        padding: 20px;
+    }
+
+    .trabajador {
+        margin: 10px;
+    }
+
+    .zona-interior,
+    .zona-exterior {
+        padding: 10px;
+    }
+
+    .seccion-zonas-comunes,
+    .seccion-paseos,
+    .galeria {
+        margin-top: 20px;
+    }
+
+    .imagen-galeria {
+        width: calc(50% - 10px);
+    }
+
+    .modal {
+        padding: 20px;
+    }
+
+    .logof img {
+        width: 200px;
+    }
+
+    .redes-sociales img {
+        margin-top: 10px;
+    }
+
+    /* Estilos para el footer */
+    footer {
+        flex-direction: column;
+    }
+
+    .columna {
+        padding: 10px;
+    }
+
+    .redes-sociales img {
+        margin-top: 10px;
+    }
+}
+
+/* Estilos para pantallas muy pequeñas */
+@media screen and (max-width: 480px) {
+    
+    .menu {
+        flex-direction: row;
+    }
+
+    .menu li {
+        margin-bottom: 0;
+    }
+
+    .columna {
+        padding: 0 20px;
+    }
+    .imagen-galeria {
+        width: calc(100% - 10px);
+    }
 }
 
 

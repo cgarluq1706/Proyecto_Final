@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../pagina principal/logo.png">
+    <title>Cliente</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Mensaje emergente -->
+    <div id="popup-container">
+        <div id="popup-content">
+            <span id="close-btn">&times;</span>
+            <h3>RESERVA SOLO DE VISITA</h3>
+            <p>Esta reserva está específicamente programada para conocer las instalaciones junto a uno de los cuidadores, para que así los dueños conozcan el entorno y si la mascota se encuentra cómoda en la residencia.</p>
+        </div>
+    </div>
+    <!--Cabecera-->
+    <header>
+        <nav>
+            <a href="../index.html">
+                <img src="logo.png" alt="Logo" class="logo">
+            </a>
+        </nav>
+    
+        <h1>Reserva de Visitas para Mascotas</h1>
+    </header>
+
+    
+    <!-- Contenedor para el formulario -->
+    <main>
+        <div id="form-container"></div>
+    </main>
+    <footer>
+        <p>Copyright 2023 © Residencia para Mascotas Valencan</p>
+    </footer>
+
+    <!-- Formulario de reserva -->
+    <!-- Este formulario se crea dinámicamente mediante JavaScript -->
+    <form style="background-color: #ffffff00;  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0); border: 0cm;" id="reservaForm" class="reserva-form" method="POST" action="procesar_reserva.php"></form>
+
+    <script src="script.js"></script>
+</body>
+</html>

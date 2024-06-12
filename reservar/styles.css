@@ -1,0 +1,154 @@
+/*Mensaje emergente*/
+#popup-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 9999; /* mensaje emergente esté por encima de otros elementos */
+}
+
+#popup-content {
+    position: relative;
+}
+
+#close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#close-btn:hover {
+    color: #aaa;
+}
+
+/*pagina*/
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    display: flex;
+
+}
+
+header {
+    background-color: #F29191;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav a {
+    display: inline-block;
+    margin: 0;
+}
+
+header nav .logo {
+    width: 120px; 
+}
+
+main {
+    flex: 1; /* Hace que el área principal se expanda para llenar el espacio restante */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.reserva-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.37);
+    max-width: 600px;
+    width: 100%;
+    margin: 20px;
+    border: 2px solid #F29191;
+    padding-right: 50px; 
+}
+
+.reserva-form h2 {
+    color: #F29191;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.checkbox-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox-group label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #F29191;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #e07e7e;
+}
+.form-group input[type="date"] {
+    width: calc(20% - 5px);
+    margin-right: 200px; 
+}
+.form-group input[type="time"] {
+    width: calc(20% - 5px);
+    margin-right: 200px; 
+}
+ 
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px 0; 
+    font-size: 0.8em; 
+    position: fixed; /* Hacer que el pie de página sea fijo */
+    bottom: 0; /* Fijar el pie de página en la parte inferior */
+    width: 100%; 
+}
+

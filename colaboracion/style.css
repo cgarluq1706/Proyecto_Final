@@ -93,7 +93,7 @@ section {
     padding-bottom: 10px;
     border-radius: 10%;
 }
-
+ 
 .boton {
     display: inline-block;
     padding: 10px 20px;
@@ -160,6 +160,70 @@ section {
     margin: 40px 0; 
 }
 
+.colaboracion {
+    background-color: #F29191;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 40px auto;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.colaboracion h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+
+.colaboracion-content {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.colaboracion-texto {
+    text-align: justify;
+    margin-bottom: 20px;
+    padding: 0px 40px;
+    color: #ffffff;
+}
+
+.carousel-container {
+    width: 40%; /* ancho imagen */
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    display: none;
+}
+
+.carousel-slide img {
+    display: block;
+    width: 100%;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#prevBtn {
+    left: 0;
+}
+
+#nextBtn {
+    right: 0;
+}
+
  /*PIE DE PAGINA */
  footer {
     background-color: #F29191;
@@ -212,6 +276,100 @@ section {
 .enlaces-rapidos ul li a:hover {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.24); 
     
+}
+
+/* Estilos para dispositivos con ancho máximo de 480px */
+@media screen and (max-width: 480px) {
+    /* Estilos para el menú de navegación */
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu li {
+        margin-bottom: 10px;
+    }
+
+    .columna {
+        padding: 10px 0;
+    }
+}
+
+/* Estilos para dispositivos con ancho máximo de 768px */
+@media only screen and (max-width: 768px) {
+    /* Estilos para el footer */
+    footer {
+        flex-direction: column;
+    }
+
+    .columna {
+        padding: 10px;
+    }
+
+    .redes-sociales img {
+        margin-top: 10px;
+    }
+
+    /* Estilos para el menú de navegación */
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .menu li a:not(.logo) {
+        padding: 5px;
+    }
+
+    .logo img {
+        position: relative;
+    }
+
+    .colabora {
+        padding: 20px;
+    }
+
+    .logo-protectora {
+        width: 200px;
+        height: 180px;
+    }
+
+    .imagen-seccion img {
+        width: 100%;
+        height: auto;
+    }
+
+    .imagenes-bloque {
+        display: flex; /* ontenedor como un flexbox */
+        flex-wrap: wrap;/* elementos se bajen si no caben en una sola línea */
+        justify-content: center;
+    }
+
+    .imagenes-bloque img {
+        max-width: 100%; 
+        height: auto; 
+        margin: 0 5px;
+    }
+
+    .carousel-container {
+        width: 100%;
+    }
+
+    .carousel-slide img {
+        width: 100%;
+    }
+
+    .boton-colabora {
+        margin: 10px auto;
+    }
+
+    .logof img {
+        width: 200px;
+        margin-right: 0;
+        margin-left: 0;
+    }
 }
 
 

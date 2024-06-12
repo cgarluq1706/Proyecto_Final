@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fce4ec; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #fff; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* contenido */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.colaborar-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #f29191; 
+}
+ 
+.cola  {
+    color: #f29191; 
+    font-size: 100px;
+}
+
+.botones-colaborar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.botones-colaborar button {
+    background-color: #f29191; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botones-colaborar button:hover {
+    background-color: #d81b60; 
+}
+
+/* pie de pagina */
+footer {
+    background-color: #F29191;
+    font-size: xx-small;
+    color: white;
+    text-align: center;
+    padding: 2px 0;
+    width: 100%;
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 480px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    .logo img {
+        max-width: 80px;
+        height: auto;
+    }
+
+    .cola {
+        font-size: 30px;
+    }
+}
+
+

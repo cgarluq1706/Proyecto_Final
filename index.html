@@ -6,9 +6,14 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="pagina principal/logo.png">
     <title>VALENCAN</title>
+    
 </head>
 <body>
-     
+    <!-- onsentimiento de cookies -->
+    <div id="cookieConsentContainer" style="display:none; position: fixed; bottom: 0; width: 100%; background-color: rgba(0,0,0,0.8); color: white; padding: 10px; text-align: center;">
+        <p>Este sitio utiliza cookies para mejorar tu experiencia. Al continuar navegando, aceptas su uso. <button onclick="acceptCookies()" style="color: black;">Aceptar</button></p>
+    </div>
+
     <header>
         <!-- Menu de navegacion -->
         <ul class="menu">
@@ -27,12 +32,12 @@
             <p>Donde las mascotas son familia</p>
     </section>
     
-    
+    <!-- Enlace de redes sociales -->
     <section class="redes">
-        <a href="https://www.facebook.com/?locale=es_ES" target="_blank">
+        <a href="https://www.facebook.com/people/Residencia-de-Mascotas-Valencan/61560526026817/" target="_blank">
             <img src="pagina principal/facebook.png" alt="Facebook" >
         </a>
-        <a href="https://www.instagram.com/" target="_blank">
+        <a href="https://www.instagram.com/residencia_valencan/" target="_blank">
             <img src="pagina principal/instagram.png" alt="Instagram">
         </a>
     </section>
@@ -53,28 +58,16 @@
     <!-- Servicios -->
     <section class="servicios">
         <h3>NUESTROS SERVICIOS DE MASCOTAS</h3>
-        <div class="imagenes">
-<<<<<<< HEAD
+        <div class="imagenes"> 
             <a href="centro\servicios.html"  class="imag">
                 <img src="pagina principal/perros_paseo.jpg" alt="perro" class="image">
                 <p>Cuidado de Mascotas</p>
             </a>
-            <a href="centro\servicios.html"  class="imag">
-                <img src="pagina principal/paseo.jpeg" alt="perro" class="image">
-                <p>Paseos</p>
+            <a href="colaboracion/colaboracion.html"  class="imag">
+                <img src="pagina principal/soli.jpg" alt="perro" class="image">
+                <p>Guardería solidaria</p>
             </a>
             <a href="centro\servicios.html"  class="imag">
-=======
-            <a href="centro\servicios.html" target="_blank" class="imag">
-                <img src="pagina principal/perros_paseo.jpg" alt="perro" class="image">
-                <p>Cuidado de Mascotas</p>
-            </a>
-            <a href="centro\servicios.html" target="_blank" class="imag">
-                <img src="pagina principal/paseo.jpeg" alt="perro" class="image">
-                <p>Paseos</p>
-            </a>
-            <a href="centro\servicios.html" target="_blank" class="imag">
->>>>>>> ba955c14b77c31a889fe6039d42a4ecbeae2b23e
                 <img src="pagina principal/piscina.jpg" alt="perro" class="image">
                 <p>Alojamiento</p>
             </a>
@@ -85,20 +78,28 @@
     <!-- Comentarios -->
     <div class="comment">
         <h2 style="text-align: center;padding-top: 10px; color: rgb(255, 255, 255);">NUESTROS CLIENTES OPINAN</h2>
+        <!-- Contenedor de los comentarios -->
         <section class="comentarios">
             <div class="carousel">
                 <!-- Primer comentario -->
                 <div class="comment-slide">
                     <div class="comment2">
+                         <!-- Información del usuario del primer comentario -->
                         <div class="user-info">
+                            <!-- Avatar del usuario -->
                             <div class="avatar">
                                 <img src="pagina principal/img/avatar (2).jpeg" alt="Avatar del usuario">
                             </div>
+                            <!-- Nombre del usuario -->
                             <p>Maria Victoria</p>
                         </div>
+                        <!-- Contenido del comentario -->
                         <div class="comment-content">
+                            <!-- Texto del comentario -->
                             <p class="comment-text">¡La guardería para mi cachorro ha sido una experiencia maravillosa! Le encanta jugar con otros perros y siempre llega a casa agotado pero feliz. El equipo de cuidadores es increíblemente cariñoso y profesional, ¡no dudaría en recomendarlos!</p>
+                            <!-- Valoración del comentario -->
                             <div class="valoracion">
+                                <!-- Estrellas de la valoración -->
                                 <span class="star"></span>
                                 <span class="star"></span>
                                 <span class="star"></span>
@@ -190,14 +191,16 @@
                 </div>
             </div>
             <div class="arrows">
+                <!-- Flecha izquierda -->
                 <div class="arrow left-arrow">&lt;</div>
+                 <!-- Flecha derecha -->
                 <div class="arrow right-arrow">&gt;</div>
             </div>
         </section>
     </div>
     <script src="script.js"></script>
     
- <!-- centro -->
+ <!-- centro de servicios-->
  <div class="block-container">
     <div class="block">
         <div class="card">
@@ -237,16 +240,21 @@
     </div>
 </div>
 
-  
+  <!-- Linea de separación -->
     <section class="lineab">
-    <div><img src="pagina principal/perros.jpg" alt=""></div>
+        <div class="imagen-responsiva">
+            <img src="pagina principal/perros.jpg" alt="">
+        </div>
     </section>
 
     <!-- PIE DE PAGINA -->
+
     <footer>
+        <!-- Logo de la web -->
         <div class="logof">
             <img src="pagina principal/logo.png" alt="Logo de la web">
         </div>
+         <!-- Enlaces rápidos -->
         <div class="enlaces-rapidos columna">
             <ul>
             <h2><a href="index.html" style="color: #fff; text-decoration: none;">MENU</a></li></h2>
@@ -255,34 +263,38 @@
             <li><a href="contacto\contacto.html">Contacto</a></li>
             <li><a href="colaboracion\colaboracion.html">Colaboración</a></li>
             <li><a href="legal\legal.html">Legal</a></li>
+            
             </ul>
         </div>
 
+         <!-- Información de contacto -->
         <div class="info columna">
             <h2><a href="contacto\contacto.html" style="color: #fff; text-decoration: none;">CONTACTO</a></li></h2>
             <p><img src="pagina principal/casa.png" alt="direccion" style="width: 20px; height: 20px;"> Dirección: Avenida de mi casa </p>
-            <p><img src="pagina principal/tlf3.png" alt="telefono" style="width: 20px; height: 20px;"> Teléfono: 612345678 </p>
+            <p><img src="pagina principal/tlf.png" alt="telefono" style="width: 20px; height: 20px;"> Teléfono: 612345678 </p>
             <p><img src="pagina principal/email.png" alt="correo" style="width: 20px; height: 20px;"> Correo electrónico: valencan@gmail.com </p>
             <p class="horario"><img src="pagina principal/reloj.png" alt="horario" style="width: 20px; height: 20px;"> Horario: 09:00am - 21:00pm</p>
 
         </div>
     
+         <!-- Redes sociales -->
         <div class="redes-sociales columna">
-            <a href="https://www.facebook.com/?locale=es_ES" target="_blank">
+            <a href="https://www.facebook.com/people/Residencia-de-Mascotas-Valencan/61560526026817/" target="_blank">
                 <img src="pagina principal/facebook.png" alt="Facebook" >
             </a>
-            <a href="https://www.instagram.com/" target="_blank">
+            <a href="https://www.instagram.com/residencia_valencan/" target="_blank">
                 <img src="pagina principal/instagram.png" alt="Instagram">
             </a>
             <br>
             <a href="colaboracion/colaboracion.html" target="_blank">
                 <img src="pagina principal/logof.jpg" alt="Colaboracion"  style="width: 100px; height: 100px;" >
             </a>
-            
         </div>
 
     </footer>
+    <!-- Pie de página con información de derechos de autor -->
     <p style="text-align: center; font-size:xx-small;">Copyright 2023 © Residencia para Mascotas Valencan</p>
-
+    <!-- Script para el manejo de cookies -->
+    <script src="cookies.js"></script>
 </body>
 </html>

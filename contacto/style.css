@@ -12,7 +12,7 @@ body {
     position: relative; 
     text-align: center;   
 }
-
+ 
 .menu li {
     display: inline-block; 
     margin-right: 40px; 
@@ -44,7 +44,6 @@ body {
     top: 0; 
 }
 
-
 section {
     margin: 0;
     text-align: center; 
@@ -57,42 +56,26 @@ section {
     padding: 30px;
     border-radius: 10px;
     margin-bottom: 30px;
-<<<<<<< HEAD
 }
 
-=======
-   
-}
->>>>>>> ba955c14b77c31a889fe6039d42a4ecbeae2b23e
 .container {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-<<<<<<< HEAD
 }
-
-=======
-    
-}
->>>>>>> ba955c14b77c31a889fe6039d42a4ecbeae2b23e
+ 
 .texto {
     flex: 1;
     padding: 20px;
     text-align: center;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> ba955c14b77c31a889fe6039d42a4ecbeae2b23e
 .formulario {
     flex: 1;
     padding: 20px;
     border-left: 2px solid #ccc;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> ba955c14b77c31a889fe6039d42a4ecbeae2b23e
 h1 {
     margin-top: 20px;
 }
@@ -105,10 +88,6 @@ form {
     border-radius: 5px;
     background-color: #f291918a;
     box-shadow: 0px 0px 10px #f29191;
-<<<<<<< HEAD
-=======
-
->>>>>>> ba955c14b77c31a889fe6039d42a4ecbeae2b23e
 }
 
 .form-group {
@@ -142,12 +121,8 @@ textarea {
     resize: vertical;
 }
 
-<<<<<<< HEAD
 button[type="submit"],
 button[type="reset"] {
-=======
-button[type="submit"] , [type="reset"] {
->>>>>>> ba955c14b77c31a889fe6039d42a4ecbeae2b23e
     background-color: #F29191;
     color: white;
     padding: 12px 20px;
@@ -161,38 +136,60 @@ button[type="submit"]:hover {
     background-color: #ffffff;
     color: #F29191;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> ba955c14b77c31a889fe6039d42a4ecbeae2b23e
 button[type="reset"]:hover {
     background-color: #ffffff;
     color: #F29191;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> ba955c14b77c31a889fe6039d42a4ecbeae2b23e
 .imagen{
     width: 400px;
     height: 300px;
     margin: 20px auto;
-<<<<<<< HEAD
     border-radius: 100%;
     box-shadow: 0px 0px 10px #f29191; 
 }
 
-=======
-    
-    border-radius: 100%;
-    box-shadow: 0px 0px 10px #f29191; 
-}
->>>>>>> ba955c14b77c31a889fe6039d42a4ecbeae2b23e
 .contacto-info{
     background-color: #F29191;
     color: white;
     box-shadow: 0px 0px 10px #f29191;
     padding: 10px 0px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-group label {
+    margin-right: 10px;
+}
+.whatsapp-btn {
+    background-color: white;
+    color: #F29191;
+    border: #F26666;
+    padding: 10px 20px;
+    border: 2px solid #F29191;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.whatsapp-btn:hover {
+    background-color: #F26666;
+    border-color: #F26666;
+    color: white;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
 }
 
 
@@ -249,6 +246,108 @@ button[type="reset"]:hover {
 .enlaces-rapidos ul li a:hover {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.24); 
     
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    /* Estilos para el menú de navegación */
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .menu li a:not(.logo) {
+        padding: 5px;
+    }
+
+    /* Estilos para el contenido de contacto */
+    .contacto {
+        padding: 20px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .texto {
+        padding: 0;
+    }
+
+    .formulario {
+        padding: 0;
+        border-left: none;
+        margin-top: 20px;
+    }
+
+    .imagen {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+    }
+
+    .contacto-info {
+        padding: 10px;
+    }
+
+    .whatsapp-btn {
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    .logof img {
+        width: 200px;
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+    /* Estilos para el  mapa */
+    .mapa-container {
+        max-width: 80%; 
+        margin: 0 auto; 
+        overflow: hidden; /* Oculta el contenido que excede el tamaño del contenedor */
+    }
+
+    .mapa-container iframe {
+        width: 100%; 
+        height: auto; 
+    }
+
+
+    /* Estilos para el footer */
+    footer {
+        flex-direction: column;
+    }
+
+    .columna {
+        padding: 10px;
+    }
+
+    .redes-sociales img {
+        margin-top: 10px;
+    }
+}
+
+/* Estilos para pantallas muy pequeñas */
+@media screen and (max-width: 480px) {
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu li {
+        margin-bottom: 10px;
+    }
+
+    .columna {
+        padding: 10px 0;
+    }
+
+    .enlaces-rapidos ul li a:hover {
+        box-shadow: none;
+    }
 }
 
 

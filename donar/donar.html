@@ -1,12 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="logo.png">
-    <title>Document</title>
+    <link rel="icon" type="image/png" href="../pagina principal/logo.png">
+    <title>Donacion</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    
+<body> 
+    <!-- Cabecera -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <h1 class="cola">COLABORA</h1>
+        <div class="logo">
+            <img src="logof.jpg" alt="Logo">
+        </div>
+    </header>
+
+    <!-- Sección de colaboración -->
+    <main>
+         <section class="colaborar-section">
+            <!-- Descripción de la sección -->
+            <p>Seleccione el importe que desea donar:</p>
+            <!-- Botones de donación -->
+            <div class="botones-colaborar">
+                <!-- Botones con enlaces a la página de pago -->
+                <a href="pago/pago.html"><button data-amount="1">1 euro - Donación básica</button></a>
+                <a href="pago/pago.html"> <button data-amount="5">5 euros - Donación de apoyo</button></a>
+                <a href="pago/pago.html"><button data-amount="10">10 euros - Donación generosa</button></a>
+                <a href="pago/pago.html"><button data-amount="20">20 euros - Donación especial</button></a>
+                <a href="pago/pago.html"><button data-amount="50">50 euros - Gran contribución</button></a>
+                <a href="pago/pago.html"><button data-amount="100">100 euros - Donación excepcional</button></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright 2023 © Residencia para Mascotas Valencan</p>
+    </footer>
+    <!-- Script para procesar los pagos -->
+    <script src="pago/script.js"></script>
 </body>
 </html>
